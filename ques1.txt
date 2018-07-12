@@ -1,0 +1,10 @@
+import pandas as pd
+import numpy as np
+
+df = pd.DataFrame({
+    'Name': ['Dharam shah', 'jitedra sharma', 'Deepankar kumar'],
+    'Age': [20, 21, 22],
+    'MailID': ['dharemndra11250@gmail.com','jeetsharma@gmail.com','deepankar kumar@gmail.com'],
+    'Phone Number' : [7310675568,7060874227,9815869325]
+})
+print(df)
